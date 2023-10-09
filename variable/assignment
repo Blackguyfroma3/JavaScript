@@ -1,0 +1,22 @@
+let left_operand = 7; 
+let right_operand = 2; 
+let operator = '-'; 
+
+let ans;
+
+if (operator == '+') {
+  ans = left_operand + right_operand;
+} else if (operator == '-') {
+  ans = left_operand - right_operand;
+} else if (operator == '*') {
+  ans = left_operand * right_operand;
+} else if (operator == '/') {
+  ans = left_operand / right_operand;
+} else {
+  ans = NaN;
+}
+
+
+console.log("Result:", ans);
+
+
